@@ -40,7 +40,7 @@ GEM
       fuzzy_match (~> 2.0.4)
       nap (~> 1.0)
     cocoapods-deintegrate (1.0.2)
-    cocoapods-downloader (1.2.2)
+    cocoapods-downloader (1.6.3)
     cocoapods-plugins (1.0.0)
       nap
     cocoapods-search (1.0.0)
@@ -129,8 +129,6 @@ GEM
       xcodeproj (>= 1.6.0, < 2.0.0)
       xcpretty (~> 0.3.0)
       xcpretty-travis-formatter (>= 0.0.3)
-    fastlane-plugin-trainer (0.4.0)
-      trainer (>= 0.7.0)
     ffi (1.9.25)
     fourflusher (2.0.1)
     fuzzy_match (2.0.4)
@@ -228,9 +226,6 @@ GEM
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
-    trainer (0.8.0)
-      fastlane (>= 2.25.0)
-      plist (>= 3.1.0, < 4.0.0)
     tty-cursor (0.6.0)
     tty-screen (0.6.5)
     tty-spinner (0.8.0)
@@ -266,7 +261,6 @@ DEPENDENCIES
   danger-junit
   danger-xcode_summary
   fastlane (~> 2.66)
-  fastlane-plugin-trainer
   jazzy (~> 0.9)
   xcpretty-json-formatter
 
